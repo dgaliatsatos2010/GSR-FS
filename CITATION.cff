@@ -1,6 +1,23 @@
 cff-version: 1.2.0
-message: "Research prototype only. v0.16 passes the heterogeneous minimum-evidence gate but not the superiority or formal CC18 gate; do not cite it as state of the art."
+message: "If you use this software, please cite it as below."
 title: "GSR-FS: Geometry-Supported Residual Feature Selection"
-version: 0.16.0
+version: 0.16.2
 type: software
 license: MIT
+
+authors:
+  - family-names: Galiatsatos
+    given-names: Dimitrios
+    affiliation: "Hellenic Open University, Patras, Greece"
+    orcid: "https://orcid.org/0009-0005-5232-1425"
+
+date-released: "2026-09-29"
+
+repository-code: "https://github.com/dgaliatsatos2010/GSR-FS"
+
+keywords:
+  - unsupervised feature selection
+  - machine learning
+  - geometry
+  - feature selection
+  - dimensionality reduction
