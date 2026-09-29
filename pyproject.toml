@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gsrfs"
-version = "0.16.0"
+version = "0.16.2"
 description = "Research prototype for geometry-supported residual unsupervised feature selection"
 keywords = ["feature-selection", "unsupervised-learning", "machine-learning", "dimensionality-reduction", "scikit-learn"]
 readme = "README.md"
