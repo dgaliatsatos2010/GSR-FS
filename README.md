@@ -1,4 +1,5 @@
 # GSR-FS v0.16 — Geometry-Supported Residual Feature Selection
+[![DOI](https://zenodo.org/badge/1396422497.svg)](https://doi.org/10.5281/zenodo.23046348)
 
 **Status: research candidate with a completed 30-dataset heterogeneous canonical evidence panel. Minimum evidence/provenance gate PASS; strong superiority FAIL; formal OpenML-CC18 and FGMRW-2026 empirical gates pending. Not yet released to PyPI.**
 
