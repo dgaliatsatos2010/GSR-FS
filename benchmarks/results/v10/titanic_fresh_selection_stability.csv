@@ -1,0 +1,6 @@
+method,mean_fold_jaccard,n_successful_folds,fold_selections
+GSR-base,0.5111111111111111,3,"Sex_female,Embarked_S,Pclass,Fare || Sex_female,Fare,Parch,Pclass || Sex_female,Embarked_S,Fare,Embarked_C"
+GSR-JGC,0.5111111111111111,3,"Sex_female,Embarked_S,Pclass,Fare || Sex_female,Pclass,Parch,Fare || Sex_female,Embarked_S,Fare,Embarked_C"
+MaxVariance,0.7333333333333334,3,"Fare,Age,SibSp,Pclass || Fare,Age,SibSp,Parch || Fare,Age,SibSp,Pclass"
+LaplacianScore-dev,0.7333333333333334,3,"Sex_male,Sex_female,Embarked_S,Embarked_Q || Embarked_S,Sex_male,Sex_female,Embarked_Q || Embarked_C,Embarked_S,Embarked_Q,Sex_female"
+SPEC-dev,1.0,3,"Embarked_C,Embarked_Q,Embarked_S,Sex_female || Embarked_Q,Embarked_C,Embarked_S,Sex_female || Embarked_C,Embarked_Q,Embarked_S,Sex_female"

@@ -1,0 +1,2 @@
+metric,n_complete_datasets,friedman_statistic,friedman_p
+knn_preservation,4,8.099999999999994,0.04398958991527269

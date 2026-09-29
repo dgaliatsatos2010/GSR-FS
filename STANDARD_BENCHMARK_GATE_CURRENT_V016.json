@@ -1,0 +1,12 @@
+{
+  "release": "0.16.0",
+  "suite": "OpenML-CC18",
+  "suite_id": 99,
+  "status": "NOT_EXECUTED",
+  "overall_pass": false,
+  "required_tasks": 30,
+  "completed_tasks": 0,
+  "workflow": ".github/workflows/cc18_v016.yml",
+  "ci_preflight": "PASS",
+  "notes": "Workflow path/commit contract validated offline; official CC18 execution still requires networked GitHub Actions."
+}

@@ -1,0 +1,19 @@
+dataset,fold,method,k,selected,balanced_accuracy,macro_f1,error
+titanic_fresh_v10,0,GSR-base,4,Sex_female|Embarked_S|Pclass|Fare,0.7301553062985333,0.7224558452481076,
+titanic_fresh_v10,0,GSR-JGC,4,Sex_female|Embarked_S|Pclass|Fare,0.7301553062985333,0.7224558452481076,
+titanic_fresh_v10,0,MaxVariance,4,Fare|Age|SibSp|Pclass,0.6747914869140064,0.672601197178925,
+titanic_fresh_v10,0,LaplacianScore-dev,4,Sex_male|Sex_female|Embarked_S|Embarked_Q,0.7360511935576647,0.7379401206290115,
+titanic_fresh_v10,0,SPEC-dev,4,Embarked_C|Embarked_Q|Embarked_S|Sex_female,0.7360511935576647,0.7379401206290115,
+titanic_fresh_v10,0,MCFS-eigengap-dev,4,,,,"ArpackNoConvergence('ARPACK error -1: No convergence (5941 iterations, 0/11 eigenvectors converged)')"
+titanic_fresh_v10,1,GSR-base,4,Sex_female|Fare|Parch|Pclass,0.7351883807880357,0.717256408785915,
+titanic_fresh_v10,1,GSR-JGC,4,Sex_female|Pclass|Parch|Fare,0.7351883807880357,0.717256408785915,
+titanic_fresh_v10,1,MaxVariance,4,Fare|Age|SibSp|Parch,0.6696865113603682,0.6744610887833393,
+titanic_fresh_v10,1,LaplacianScore-dev,4,Embarked_S|Sex_male|Sex_female|Embarked_Q,0.7754529767040552,0.7793972602739726,
+titanic_fresh_v10,1,SPEC-dev,4,Embarked_Q|Embarked_C|Embarked_S|Sex_female,0.7754529767040552,0.7793972602739726,
+titanic_fresh_v10,1,MCFS-eigengap-dev,4,,,,"ArpackNoConvergence('ARPACK error -1: No convergence (5941 iterations, 0/11 eigenvectors converged)')"
+titanic_fresh_v10,2,GSR-base,4,Sex_female|Embarked_S|Fare|Embarked_C,0.7896893874029336,0.7938630136986301,
+titanic_fresh_v10,2,GSR-JGC,4,Sex_female|Embarked_S|Fare|Embarked_C,0.7896893874029336,0.7938630136986301,
+titanic_fresh_v10,2,MaxVariance,4,Fare|Age|SibSp|Pclass,0.6954989933851021,0.6986761847718466,
+titanic_fresh_v10,2,LaplacianScore-dev,4,Embarked_C|Embarked_S|Embarked_Q|Sex_female,0.7891141788898476,0.7954746679783571,
+titanic_fresh_v10,2,SPEC-dev,4,Embarked_C|Embarked_Q|Embarked_S|Sex_female,0.7891141788898476,0.7954746679783571,
+titanic_fresh_v10,2,MCFS-eigengap-dev,4,,,,"ArpackNoConvergence('ARPACK error -1: No convergence (5941 iterations, 7/11 eigenvectors converged)')"

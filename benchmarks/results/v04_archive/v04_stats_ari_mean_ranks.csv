@@ -1,0 +1,5 @@
+method,mean_rank
+GSR-FS,2.25
+LaplacianScore,2.25
+MCFS,2.5
+MaxVariance,3.0

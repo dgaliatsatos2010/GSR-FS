@@ -1,0 +1,61 @@
+name: GSR-FS v0.16 OpenML-CC18 evidence
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: Number of frozen CC18 tasks to accept
+        required: true
+        default: "30"
+      seeds:
+        description: Space-separated GSR/evaluation seeds
+        required: true
+        default: "0 1 2"
+      baseline_set:
+        description: Canonical scikit-feature baseline set
+        required: true
+        default: "canonical"
+        type: choice
+        options:
+          - canonical
+
+jobs:
+  cc18:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install GSR-FS benchmark dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e '.[benchmark,test]'
+      - name: Install pinned scikit-feature author source outside package tree
+        run: |
+          git clone https://github.com/jundongl/scikit-feature.git /tmp/scikit-feature
+          git -C /tmp/scikit-feature checkout 48cffad4e88ff4b9d2f1c7baffb314d1b3303792
+          python -m pip install -e /tmp/scikit-feature
+      - name: Verify package tests
+        run: python -m pytest -q
+      - name: Run frozen OpenML-CC18 protocol
+        env:
+          OPENML_API_KEY: ${{ secrets.OPENML_API_KEY }}
+        run: |
+          python benchmarks/run_cc18.py \
+            --limit '${{ inputs.limit }}' \
+            --seeds ${{ inputs.seeds }} \
+            --permutations 50 \
+            --max-pairs 50000 \
+            --max-samples 5000 \
+            --max-features 1000 \
+            --baseline-set '${{ inputs.baseline_set }}'
+          python benchmarks/finalize_cc18_v16.py --results-dir benchmarks/results/v16/cc18_${{ inputs.baseline_set }} --min-tasks '${{ inputs.limit }}'
+          python benchmarks/run_fgmrw_cc18_v16.py --limit 10 --seeds 0 1 2 --max-samples 1500 --recent-max-features 100 --permutations 50 --max-pairs 50000
+      - name: Archive benchmark outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: gsrfs-v016-cc18-${{ inputs.baseline_set }}
+          path: benchmarks/results/v16/
+          if-no-files-found: error

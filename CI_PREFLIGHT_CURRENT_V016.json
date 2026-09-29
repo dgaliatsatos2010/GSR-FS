@@ -1,0 +1,10 @@
+{
+  "workflow_exists": true,
+  "canonical_commit_pinned": true,
+  "finalizer_path_matches": true,
+  "artifact_path_v16": true,
+  "required_scripts_exist": true,
+  "fgmrw_not_vendored": true,
+  "fgmrw_label_blind": true,
+  "overall_pass": true
+}

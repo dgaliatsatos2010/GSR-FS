@@ -1,0 +1,4 @@
+reference,competitor,n_datasets,mean_reference,mean_competitor,median_oriented_difference,mean_oriented_difference,rank_biserial,wilcoxon_statistic,p_raw,p_holm,significant_holm
+GSR-FS,LaplacianScore,4,0.5658732292077122,0.5999774561515245,-0.05269230168181577,-0.03410422694381246,-0.2,4.0,0.875,1.0,False
+GSR-FS,MCFS,4,0.5658732292077122,0.5153884243886401,0.03037916440628685,0.05048480481907202,0.4,3.0,0.625,1.0,False
+GSR-FS,MaxVariance,4,0.5658732292077122,0.5379673359892316,0.02836550632237128,0.02790589321848047,0.4,3.0,0.625,1.0,False

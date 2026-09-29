@@ -1,0 +1,12 @@
+{
+  "release": "0.16.0",
+  "method": "FGMRW-UFS TKDE 2026",
+  "status": "SOURCE_AUDITED_READY_NOT_EXECUTED",
+  "overall_pass": false,
+  "required_tasks": 10,
+  "completed_tasks": 0,
+  "commit": "325a904a28284a879c8a522ca7c4abc56449e9f5",
+  "strict_x_only": true,
+  "vendored_into_gsrfs": false,
+  "ci_preflight": "PASS"
+}

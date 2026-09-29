@@ -1,0 +1,2 @@
+metric,higher_is_better,n_complete_datasets,friedman_statistic,friedman_p
+knn_preservation,True,3,9.152542372881356,0.05739770956043796

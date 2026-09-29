@@ -1,0 +1,12 @@
+dataset,group_id,representative,members,n_members,n_substitutes,mean_member_cgs_similarity,min_member_cgs_similarity,representative_selection_score,representative_effective_support
+Longley_exog,SG01,GNPDEFL,GNPDEFL|GNP|POP|YEAR,4,3,0.96539674551251,0.9233777457135555,8.794037649626642,8.794037649626642
+Longley_exog,SG02,UNEMP,UNEMP,1,0,1.0,1.0,2.4310066486067545,2.9694769064556614
+Longley_exog,SG03,ARMED,ARMED,1,0,1.0,1.0,2.3585510721353384,2.811399790205303
+Macrodata_numeric,SG01,cpi,realgdp|realcons|realdpi|cpi|pop,5,4,0.9809784586085867,0.9680943264076614,52.66272627076716,52.66272627076716
+Macrodata_numeric,SG02,realgovt,realgovt,1,0,1.0,1.0,14.122562924460558,26.42944063406633
+Macrodata_numeric,SG03,realinv,realinv,1,0,1.0,1.0,13.767371107998663,34.42202794349473
+Macrodata_numeric,SG04,m1,m1,1,0,1.0,1.0,8.500382719387643,47.737934499269294
+Diabetes_features,SG01,s4,s4,1,0,1.0,1.0,12.658631495354703,12.658631495354703
+Diabetes_features,SG02,s5,s5,1,0,1.0,1.0,9.535361433234492,11.329457166277377
+Diabetes_features,SG03,s1,s1,1,0,1.0,1.0,8.040494496424653,9.781369942365064
+Diabetes_features,SG04,bp,bp,1,0,1.0,1.0,5.6525196377446125,6.386301964536635

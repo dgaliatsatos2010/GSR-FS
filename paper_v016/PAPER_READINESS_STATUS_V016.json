@@ -1,0 +1,15 @@
+{
+  "artifact": "GSR-FS manuscript readiness v0.16",
+  "core_method_frozen": true,
+  "heterogeneous_minimum_evidence_gate": "PASS",
+  "complete_canonical_datasets": 29,
+  "source_integrity_pass_datasets": 30,
+  "classic_canonical_comparators_executed": 3,
+  "balanced_accuracy_friedman_p": 0.4880219826951593,
+  "strong_superiority_gate": "FAIL",
+  "formal_openml_cc18_gate": "NOT_EXECUTED",
+  "recent_fgmrw_2026_empirical_gate": "NOT_EXECUTED",
+  "manuscript_core_draft_ready": true,
+  "final_submission_recommendation": "CONDITIONAL_PENDING_STANDARDIZED_CONFIRMATION",
+  "allowed_primary_claim": "competitive label-blind structural UFS framework; no demonstrated overall superiority"
+}

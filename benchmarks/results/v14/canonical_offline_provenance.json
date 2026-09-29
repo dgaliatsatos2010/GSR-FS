@@ -1,0 +1,18 @@
+{
+  "benchmark": "v0.14 canonical scikit-feature fold-wise offline panel",
+  "datasets": [
+    "iris",
+    "wine",
+    "breast_cancer",
+    "anes96",
+    "modechoice",
+    "spector"
+  ],
+  "excluded_from_primary_run": {
+    "digits": "canonical SPEC/MCFS use dense n-by-n spectral decompositions; handled as separate scalability stress case"
+  },
+  "scikit_feature_snapshot_env": "/mnt/data/scikit_feature_canonical_v014",
+  "selectors_receive_y": false,
+  "mcfs_n_clusters": 5,
+  "laplacian_workaround": "upstream construct_W(X) passed explicitly as W because upstream lap_score default call raises KeyError(W)"
+}

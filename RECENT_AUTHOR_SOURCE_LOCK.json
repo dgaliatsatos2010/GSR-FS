@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "method": "FGMRW-UFS",
+  "paper": "Unsupervised Feature Selection Using Fuzzy Graph Momentum Random Walk in Bi-Level Granular-Ball Knowledge Space",
+  "journal": "IEEE Transactions on Knowledge and Data Engineering",
+  "year": 2026,
+  "doi": "10.1109/TKDE.2026.3700270",
+  "repository": "HongtaoGao-code/FGMRW-UFS",
+  "commit": "325a904a28284a879c8a522ca7c4abc56449e9f5",
+  "vendored_into_gsrfs": false,
+  "files": [
+    {"path": "FGMRW-UFS-code.py", "git_blob_sha1": "ff817880c7aa56366e957fe33e751b0db273443d"},
+    {"path": "GB.py", "git_blob_sha1": "dd4814cdae5395ccaf35eb2c697e06efdbfb8bfb"}
+  ],
+  "strict_protocol": {
+    "labels_passed_to_selector": false,
+    "ground_truth_class_count_passed": false,
+    "preprocessing": "training-fold MinMax scaling to [0,1] after label-blind imputation/encoding",
+    "alpha": 0.1,
+    "s": 0.8,
+    "parameter_source": "public repository example call; frozen without downstream-label tuning",
+    "demo_path_reproduced": false
+  },
+  "audit_note": "The public demo retains a final column before calling FGMRW_UFS despite the function documenting input without labels. GSR-FS therefore invokes the algorithm function on X only and does not reproduce that demo data path."
+}

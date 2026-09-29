@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "Research prototype only. v0.16 passes the heterogeneous minimum-evidence gate but not the superiority or formal CC18 gate; do not cite it as state of the art."
+title: "GSR-FS: Geometry-Supported Residual Feature Selection"
+version: 0.16.0
+type: software
+license: MIT

@@ -1,0 +1,6 @@
+method,mean_rank
+SPEC-scikit-feature,2.5384615384615383
+GSR-FS,2.730769230769231
+MaxVariance,2.8076923076923075
+LaplacianScore-scikit-feature,3.4615384615384617
+MCFS-scikit-feature-k5,3.4615384615384617

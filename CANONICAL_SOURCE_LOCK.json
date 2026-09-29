@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "repository": "jundongl/scikit-feature",
+  "license": "GPL-2.0",
+  "vendored_into_gsrfs": false,
+  "files": [
+    {
+      "method": "LaplacianScore",
+      "path": "skfeature/function/similarity_based/lap_score.py",
+      "blob_sha": "5bee2f8c29f6247e681ded291820aba18c15a7e4"
+    },
+    {
+      "method": "SPEC",
+      "path": "skfeature/function/similarity_based/SPEC.py",
+      "blob_sha": "717bba86b7579bbf908329a607c4814d5b9f9341"
+    },
+    {
+      "method": "MCFS",
+      "path": "skfeature/function/sparse_learning_based/MCFS.py",
+      "blob_sha": "df383da5174a2b68450a7160aded3cc908f44e36"
+    },
+    {
+      "method": "shared_graph_utility",
+      "path": "skfeature/utility/construct_W.py",
+      "blob_sha": "73d04ab3222eb91219e53910613bfa09b50dbaa8"
+    },
+    {
+      "method": "license",
+      "path": "LICENSE",
+      "blob_sha": "8cdb8451d9b90c1d4000c6f22eb86471a4568be6"
+    }
+  ],
+  "notes": "GSR-FS ships adapters only. v0.14 executed an independently fetched upstream source snapshot. Laplacian author code was invoked with the upstream default construct_W graph supplied explicitly because the upstream function reads kwargs[\"W\"] after constructing a local default. No GPL source is vendored in the MIT wheel/release ZIP.",
+  "repository_commit": "48cffad4e88ff4b9d2f1c7baffb314d1b3303792",
+  "v015_note": "v0.15 workflow pins the full scikit-feature repository commit in addition to file blob SHAs.",
+  "v016_note": "v0.16 CI preflight validates workflow/finalizer path consistency before network execution; canonical commit remains unchanged."
+}

@@ -1,0 +1,149 @@
+{
+  "checks": [
+    {
+      "name": "minimum_evidence_publication_gate",
+      "observed": true,
+      "passed": true,
+      "required": true
+    },
+    {
+      "name": "minimum_complete_datasets_for_superiority",
+      "observed": 29,
+      "passed": true,
+      "required": 25
+    },
+    {
+      "name": "significant_friedman_omnibus",
+      "observed": 0.4880219826951593,
+      "passed": false,
+      "required": "p < 0.05"
+    },
+    {
+      "best_observed": 2.689655172413793,
+      "name": "candidate_best_mean_rank",
+      "observed": 2.8620689655172415,
+      "passed": false,
+      "required": "best mean rank"
+    },
+    {
+      "name": "holm_significant_canonical_wins",
+      "observed": 0,
+      "passed": false,
+      "required": 1
+    },
+    {
+      "name": "no_holm_significant_canonical_losses",
+      "observed": 0,
+      "passed": true,
+      "required": 0
+    }
+  ],
+  "claim_guidance": "Strong superiority guardrail failed: do not claim that GSR-FS replaces, dominates, or is state of the art.",
+  "config": {
+    "alpha": 0.05,
+    "candidate_method": "GSR-FS",
+    "metric": "balanced_accuracy",
+    "min_complete_datasets": 25,
+    "min_significant_canonical_wins": 1,
+    "require_best_mean_rank": true,
+    "require_significant_omnibus": true
+  },
+  "mean_ranks": [
+    {
+      "mean_rank": 2.689655172413793,
+      "method": "SPEC-scikit-feature"
+    },
+    {
+      "mean_rank": 2.8620689655172415,
+      "method": "GSR-FS"
+    },
+    {
+      "mean_rank": 2.9655172413793105,
+      "method": "MaxVariance"
+    },
+    {
+      "mean_rank": 3.086206896551724,
+      "method": "MCFS-scikit-feature-k5"
+    },
+    {
+      "mean_rank": 3.396551724137931,
+      "method": "LaplacianScore-scikit-feature"
+    }
+  ],
+  "metric": "balanced_accuracy",
+  "passed": false,
+  "posthoc": [
+    {
+      "canonical_competitor": true,
+      "competitor": "LaplacianScore-scikit-feature",
+      "mean_competitor": 0.5810013436793007,
+      "mean_oriented_difference": 0.022070647403204472,
+      "mean_reference": 0.6030719910825051,
+      "median_oriented_difference": 0.0065693948654318435,
+      "n_datasets": 29,
+      "p_holm": 0.3306120930730105,
+      "p_raw": 0.08265302326825262,
+      "rank_biserial": 0.39692307692307693,
+      "reference": "GSR-FS",
+      "significant_holm": false,
+      "significant_loss": false,
+      "significant_win": false,
+      "wilcoxon_statistic": 98.0
+    },
+    {
+      "canonical_competitor": false,
+      "competitor": "MaxVariance",
+      "mean_competitor": 0.5892378368814735,
+      "mean_oriented_difference": 0.013834154201031668,
+      "mean_reference": 0.6030719910825051,
+      "median_oriented_difference": 0.01737365627369658,
+      "n_datasets": 29,
+      "p_holm": 0.9491139061505018,
+      "p_raw": 0.3163713020501673,
+      "rank_biserial": 0.21674876847290642,
+      "reference": "GSR-FS",
+      "significant_holm": false,
+      "significant_loss": false,
+      "significant_win": false,
+      "wilcoxon_statistic": 159.0
+    },
+    {
+      "canonical_competitor": true,
+      "competitor": "MCFS-scikit-feature-k5",
+      "mean_competitor": 0.5969784337026722,
+      "mean_oriented_difference": 0.006093557379832786,
+      "mean_reference": 0.6030719910825051,
+      "median_oriented_difference": 0.0,
+      "n_datasets": 29,
+      "p_holm": 1.0,
+      "p_raw": 0.532200812876446,
+      "rank_biserial": 0.13756613756613756,
+      "reference": "GSR-FS",
+      "significant_holm": false,
+      "significant_loss": false,
+      "significant_win": false,
+      "wilcoxon_statistic": 163.0
+    },
+    {
+      "canonical_competitor": true,
+      "competitor": "SPEC-scikit-feature",
+      "mean_competitor": 0.6018745446011183,
+      "mean_oriented_difference": 0.0011974464813867393,
+      "mean_reference": 0.6030719910825051,
+      "median_oriented_difference": -0.015708368547243445,
+      "n_datasets": 29,
+      "p_holm": 1.0,
+      "p_raw": 0.927424500241308,
+      "rank_biserial": -0.019704433497536946,
+      "reference": "GSR-FS",
+      "significant_holm": false,
+      "significant_loss": false,
+      "significant_win": false,
+      "wilcoxon_statistic": 199.0
+    }
+  ],
+  "schema_version": 1,
+  "release": "0.16.0",
+  "v015_note": "No new empirical result has overridden the v0.14 failure; strong replacement/SOTA claims remain prohibited.",
+  "v016_note": "No new empirical superiority evidence; frozen GSR-FS unchanged."
+}

@@ -1,0 +1,3 @@
+scenario,runs,any_selection_rate,mean_n_selected,sd_n_selected,mean_group_coverage,mean_relevant_precision,mean_redundancy_rate,mean_threshold
+null_independent,50,0.08,0.08,0.27404751561786966,,,,2.192201483434088
+redundant_blocks,30,1.0,2.0,0.0,1.0,1.0,0.0,2.2645129772747983

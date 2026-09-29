@@ -1,0 +1,4 @@
+regime,p,runs,mean_selected,any_selected_rate,mean_group_coverage,mean_relevant_precision,mean_redundancy,mean_fit_seconds
+null,20,50,0.06,0.06,,,,0.09050511805997302
+null,100,20,0.0,0.0,,,,0.4956944287499937
+signal,24,30,2.033333333333333,1.0,1.0,0.9888888888888889,0.0,0.11743505593331065

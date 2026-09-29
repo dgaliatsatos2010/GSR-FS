@@ -1,0 +1,66 @@
+{
+  "checks": [
+    {
+      "name": "dataset_source_integrity_audit",
+      "observed": 30,
+      "passed": true,
+      "required": "audited PASS sources"
+    },
+    {
+      "name": "minimum_external_datasets",
+      "observed": 30,
+      "passed": true,
+      "required": 30
+    },
+    {
+      "name": "minimum_competitors",
+      "observed": 4,
+      "passed": true,
+      "required": 3
+    },
+    {
+      "name": "canonical_or_author_code_competitors",
+      "observed": 3,
+      "passed": true,
+      "required": 2
+    },
+    {
+      "name": "method_failure_fraction",
+      "observed": 0.0,
+      "passed": true,
+      "required": "<= 0.2"
+    },
+    {
+      "name": "candidate_label_blindness_audit",
+      "observed": true,
+      "passed": true,
+      "required": true
+    },
+    {
+      "name": "hyperparameters_frozen_before_external_benchmark",
+      "observed": true,
+      "passed": true,
+      "required": true
+    },
+    {
+      "name": "canonical_source_lock_present",
+      "observed": true,
+      "passed": true,
+      "required": true
+    }
+  ],
+  "claim_guidance": "Minimum provenance/evidence gate passed; statistical superiority claims still require pre-specified multi-dataset analyses and effect sizes.",
+  "config": {
+    "candidate_method": "GSR-FS",
+    "max_method_failure_fraction": 0.2,
+    "min_canonical_or_author_methods": 2,
+    "min_competitors": 3,
+    "min_datasets": 30,
+    "require_source_integrity": true
+  },
+  "passed": true,
+  "schema_version": 1,
+  "release": "0.16.0",
+  "v015_note": "Inherited heterogeneous 30-dataset minimum-evidence PASS from frozen v0.14; no objective tuning in v0.15.",
+  "v016_note": "Inherited heterogeneous 30-dataset minimum-evidence PASS; v0.16 only hardens CI/workflow paths and does not alter GSR-FS."
+}

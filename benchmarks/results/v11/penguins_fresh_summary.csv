@@ -1,0 +1,2 @@
+dataset,n_samples,n_features,k,exact_jaccard,substitution_aware_jaccard,absolute_gain,reference_groups,selected_full
+Palmer Penguins (plotnine local copy),344,5,3,0.8484848484848485,0.8484848484848485,0.0,"{'flipper_length_mm': ['flipper_length_mm'], 'body_mass_g': ['body_mass_g'], 'bill_length_mm': ['bill_length_mm']}","bill_length_mm,flipper_length_mm,body_mass_g"

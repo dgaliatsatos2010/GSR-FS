@@ -1,0 +1,5 @@
+,latent_group_coverage,latent_group_coverage,mean_subsample_jaccard,mean_subsample_jaccard
+,mean,std,mean,std
+method,,,,
+GSR-JGC,1.0,0.0,0.41962962962962963,0.1317844337478751
+GSR-base,0.9777777777777777,0.08606629658238704,0.352962962962963,0.0816190517349598

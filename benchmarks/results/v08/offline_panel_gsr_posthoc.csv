@@ -1,0 +1,5 @@
+comparison,wilcoxon_stat,p_raw,sign_effect,p_holm_step,p_holm
+GSR-FS vs MCFS-eigengap-dev,8.0,0.375,-0.42857142857142855,1.0,1
+GSR-FS vs LaplacianScore-dev,7.0,0.5625,-0.2857142857142857,1.0,1
+GSR-FS vs SPEC-dev,10.0,0.578125,0.14285714285714285,1.0,1
+GSR-FS vs MaxVariance,13.0,0.9375,0.14285714285714285,0.9375,1

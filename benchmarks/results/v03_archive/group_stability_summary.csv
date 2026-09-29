@@ -1,0 +1,10 @@
+scenario,method,mean_group_jaccard,std_group_jaccard
+redundant_blocks,GSR-FS,1.0,0.0
+redundant_blocks,LaplacianScore,1.0,0.0
+redundant_blocks,MCFS,0.40476190476190477,0.20619652471058061
+nonlinear_moons,GSR-FS,1.0,0.0
+nonlinear_moons,LaplacianScore,1.0,0.0
+nonlinear_moons,MCFS,0.613095238095238,0.29564823662351536
+outlier_contamination,GSR-FS,0.21428571428571425,0.2220804536449718
+outlier_contamination,LaplacianScore,1.0,0.0
+outlier_contamination,MCFS,1.0,0.0

@@ -1,0 +1,4 @@
+scenario,runs,any_selection_rate,mean_n_selected,sd_n_selected,mean_group_coverage,mean_relevant_precision,mean_redundancy_rate,mean_threshold
+null_independent,50,0.0,0.0,0.0,,,,2.1050892131698533
+outlier_contamination,15,1.0,10.133333333333333,2.2949219304078006,0.6,0.12025067525067526,0.0,2.215886871505549
+redundant_blocks,30,1.0,2.0,0.0,1.0,1.0,0.0,2.212902031771909

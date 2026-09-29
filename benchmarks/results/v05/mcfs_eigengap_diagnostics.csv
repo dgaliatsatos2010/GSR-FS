@@ -1,0 +1,4 @@
+dataset,estimated_spectral_dim,ground_truth_classes_evaluation_only
+iris,6,3
+wine,3,3
+breast_cancer,3,2

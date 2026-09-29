@@ -1,0 +1,6 @@
+index,method,all_trials_identical,fraction_identical
+0,GSR-FS,True,1.0
+1,LaplacianScore,True,1.0
+2,MCFS,True,1.0
+3,MaxVariance,True,1.0
+4,SPEC,True,1.0

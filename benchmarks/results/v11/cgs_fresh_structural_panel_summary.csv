@@ -1,0 +1,4 @@
+dataset,n_samples,p,k,exact_jaccard,substitution_aware_jaccard,absolute_gain,n_grouped_members,n_selected_representatives,selected_full,reference_groups
+penguins,344,5,3,0.7803030303030303,0.7803030303030303,0.0,3,3,"bill_length_mm,flipper_length_mm,body_mass_g","{'body_mass_g': ['body_mass_g'], 'bill_length_mm': ['bill_length_mm'], 'flipper_length_mm': ['flipper_length_mm']}"
+mpg,234,5,3,0.7272727272727273,1.0,0.2727272727272727,4,3,"displ,cyl,hwy","{'cyl': ['cyl'], 'hwy': ['cty', 'hwy'], 'displ': ['displ']}"
+diamonds,1200,7,3,0.6287878787878788,0.9444444444444445,0.31565656565656575,5,3,"carat,price,y","{'y': ['x', 'y', 'z'], 'price': ['price'], 'carat': ['carat']}"

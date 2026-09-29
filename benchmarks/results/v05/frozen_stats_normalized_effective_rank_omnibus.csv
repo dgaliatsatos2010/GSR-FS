@@ -1,0 +1,2 @@
+metric,higher_is_better,n_complete_datasets,friedman_statistic,friedman_p
+normalized_effective_rank,True,3,9.423728813559322,0.05133826387515767

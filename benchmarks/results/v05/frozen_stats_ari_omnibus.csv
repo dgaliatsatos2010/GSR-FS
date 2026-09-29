@@ -1,0 +1,2 @@
+metric,higher_is_better,n_complete_datasets,friedman_statistic,friedman_p
+ari,True,3,6.711864406779663,0.15192116220426116

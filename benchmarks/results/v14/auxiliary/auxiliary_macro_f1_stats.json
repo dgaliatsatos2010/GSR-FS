@@ -1,0 +1,14 @@
+{
+  "metric": "macro_f1",
+  "higher_is_better": true,
+  "n_complete_datasets": 13,
+  "methods": [
+    "GSR-FS",
+    "LaplacianScore-scikit-feature",
+    "MCFS-scikit-feature-k5",
+    "MaxVariance",
+    "SPEC-scikit-feature"
+  ],
+  "friedman_statistic": 4.188034188034193,
+  "friedman_p": 0.38115589398099736
+}
