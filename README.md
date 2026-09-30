@@ -1,7 +1,7 @@
 # GSR-FS v0.16 — Geometry-Supported Residual Feature Selection
 [![DOI](https://zenodo.org/badge/1396422497.svg)](https://doi.org/10.5281/zenodo.23046348)
 
-**Status: research candidate with a completed 30-dataset heterogeneous canonical evidence panel. Minimum evidence/provenance gate PASS; strong superiority FAIL; formal OpenML-CC18 and FGMRW-2026 empirical gates pending. Not yet released to PyPI.**
+**Status: research candidate with a completed 30-dataset heterogeneous canonical evidence panel. Minimum evidence/provenance gate PASS; strong superiority FAIL; formal OpenML-CC18 and FGMRW-2026 empirical gates pending.**
 
 GSR-FS is a fully label-blind unsupervised feature-selection framework. Each feature is represented
 by its additive contribution to pairwise sample geometry. Structural support is calibrated with
@@ -33,9 +33,13 @@ already selected geometry profiles.
 
 ## Install the research wheel
 
+```markdown
+## Installation
+
+Install the latest release from PyPI:
+
 ```bash
-pip install gsrfs-0.16.0-py3-none-any.whl
-```
+pip install gsrfs
 
 ## Minimal use
 
