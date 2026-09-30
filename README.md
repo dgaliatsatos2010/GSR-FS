@@ -31,15 +31,19 @@ already selected geometry profiles.
 
 `residual_power = 0.5` was frozen in v0.5 before later external evidence and remains unchanged through v0.16.
 
-## Install the research wheel
-
-```markdown
 ## Installation
 
 Install the latest release from PyPI:
 
 ```bash
 pip install gsrfs
+```
+
+To install version 0.16.2 explicitly:
+
+```bash
+pip install gsrfs==0.16.2
+```
 
 ## Minimal use
 
