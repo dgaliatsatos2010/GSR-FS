@@ -1,6 +1,6 @@
 # GSR-FS v0.16 — Geometry-Supported Residual Feature Selection
 [![DOI](https://zenodo.org/badge/1396422497.svg)](https://doi.org/10.5281/zenodo.23046348)
-
+[![PyPI version](https://img.shields.io/pypi/v/gsrfs.svg)](https://pypi.org/project/gsrfs/)
 **Status: research candidate with a completed 30-dataset heterogeneous canonical evidence panel. Minimum evidence/provenance gate PASS; strong superiority FAIL; formal OpenML-CC18 and FGMRW-2026 empirical gates pending.**
 
 GSR-FS is a fully label-blind unsupervised feature-selection framework. Each feature is represented
