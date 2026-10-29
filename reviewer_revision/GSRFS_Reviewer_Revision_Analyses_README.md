@@ -155,7 +155,7 @@ GSR-FS fixed-k results. Dataset-level means reproduce the submitted values.
 ## File naming
 
 Reviewer-2 outputs use the `r2_` prefix. Reviewer-2 executable scripts use the
-`run_r2_` prefix. `r2_baselines.py` contains the comparator implementations used
+`run_r2_` prefix. `run_r2_highdim_scalability.py` orchestrates the complete 15-run high-dimensional benchmark and writes the published raw and summary CSVs. `r2_baselines.py` contains the comparator implementations used
 by the controlled structural-recovery analysis.
 
 `MANIFEST_SHA256.csv` records file size and SHA-256 hash for every file in the
