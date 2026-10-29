@@ -1,0 +1,7 @@
+experiment,setting,n_selected,coverage,precision,redundancy
+coverage_rare,beta=0,21.66,0.83,0.0761904761904762,0.0
+coverage_rare,beta=2,21.84,0.97,0.08875324675324675,0.0
+coverage_rare,beta=3,19.78,0.97,0.10119915602113744,0.0
+coverage_rare,beta=4,10.44,0.95,0.22581389766064688,0.0
+residual_redundant,full,2.0,1.0,1.0,0.0
+residual_redundant,no_residual,4.04,1.0,0.992,0.496

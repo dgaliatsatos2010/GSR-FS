@@ -1,0 +1,5 @@
+scenario,mode,runs,mean_k,signal_precision,signal_recall,mean_signal_selected,mean_nuisance_selected,nuisance_any_rate,top_signal_rate,top_nuisance_rate,mean_signal_support,mean_nuisance_support,mean_noise_support
+clean_signal,auto,100,2.02,0.9933333333333333,0.5,2.0,0.0,0.0,1.0,0.0,5.6840491288987325,,0.2705154494679975
+clean_signal,fixed2,100,2.0,1.0,0.5,2.0,0.0,0.0,1.0,0.0,5.6840491288987325,,0.2705154494679975
+signal_plus_coherent_nuisance,auto,100,2.98,0.6633333333333333,0.495,1.98,1.0,1.0,0.78,0.22,4.995651344172204,4.53157575827653,0.2557644742218589
+signal_plus_coherent_nuisance,fixed2,100,2.0,0.605,0.3025,1.21,0.79,0.79,0.78,0.22,4.995651344172204,4.53157575827653,0.2557644742218589
