@@ -26,7 +26,8 @@ The directory includes artifacts for:
 - Reviewer-2 permutation-count sensitivity;
 - Reviewer-2 robust clipping-threshold sensitivity;
 - Reviewer-2 comparative structural-recovery experiments;
-- Reviewer-2 high-dimensional scalability through 10,000 candidate features.
+- a 2026 FGMRW-UFS recent-method comparator on the same structural-recovery scenarios;
+- Reviewer-2 high-dimensional scalability through 20,000 candidate features.
 
 Reviewer-2-specific files use the `r2_` or `run_r2_` prefix. The comparative
 structural-recovery experiments use fixed cardinality for all methods so that

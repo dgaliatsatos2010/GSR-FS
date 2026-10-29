@@ -78,7 +78,7 @@ GSR-FS fixed-k results. Dataset-level means reproduce the submitted values.
 
 13. High-dimensional engineering scalability  
     n=250, fixed k=8, B=25, max_pairs=2000, three fresh-process runs for
-    p in {500, 1000, 2500, 5000, 10000}. Wall-clock runtime, peak resident-set
+    p in {500, 1000, 2500, 5000, 10000, 20000}. Wall-clock runtime, peak resident-set
     memory and completion status are reported.
 
 ## Key Reviewer-1 findings
@@ -160,3 +160,19 @@ by the controlled structural-recovery analysis.
 
 `MANIFEST_SHA256.csv` records file size and SHA-256 hash for every file in the
 reviewer-revision snapshot except the manifest itself.
+
+
+## FGMRW-UFS comparator extension
+
+A recent 2026 unsupervised feature-selection comparator, FGMRW-UFS
+(IEEE Transactions on Knowledge and Data Engineering,
+DOI 10.1109/TKDE.2026.3700270), was evaluated under the same fixed-k
+structural-recovery scenarios. The public repository state was pinned at
+commit 325a904a28284a879c8a522ca7c4abc56449e9f5. The author test settings
+alpha=0.1 and s=0.8 were retained, no target labels were supplied to the
+selector, and all methods selected k=5 features. Full raw and summary outputs
+are provided for the 60 p=100 and 40 p=500 replicates.
+
+The FGMRW-UFS results are included as a contemporary comparator, not as evidence
+that clustering-oriented UFS methods should optimize the same structural-group
+recovery criterion as GSR-FS.

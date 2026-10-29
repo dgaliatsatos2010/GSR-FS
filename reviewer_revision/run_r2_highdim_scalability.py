@@ -1,7 +1,7 @@
 import os, subprocess, sys
 import pandas as pd
 
-PS = [500, 1000, 2500, 5000, 10000]
+PS = [500, 1000, 2500, 5000, 10000, 20000]
 REPS = 3
 
 rows = []

@@ -1,0 +1,29 @@
+{
+  "method": "FGMRW-UFS",
+  "paper_title": "Unsupervised Feature Selection Using Fuzzy Graph Momentum Random Walk in Bi-Level Granular-Ball Knowledge Space",
+  "journal": "IEEE Transactions on Knowledge and Data Engineering",
+  "year": 2026,
+  "doi": "10.1109/TKDE.2026.3700270",
+  "repository": "https://github.com/HongtaoGao-code/FGMRW-UFS",
+  "repository_commit": "325a904a28284a879c8a522ca7c4abc56449e9f5",
+  "author_test_parameters": {
+    "alpha": 0.1,
+    "s": 0.8
+  },
+  "comparison_protocol": {
+    "selected_k": 5,
+    "preprocessing": "per-feature min-max scaling to [0,1] before the numerical Gaussian-kernel branch",
+    "labels_used_by_selector": false,
+    "moderate_regime": {
+      "n": 300,
+      "p": 100,
+      "replicates": 60
+    },
+    "larger_regime": {
+      "n": 300,
+      "p": 500,
+      "replicates": 40
+    }
+  },
+  "implementation_note": "Adapter preserves the public ranking algorithm and granular-ball construction; only packaging/import structure was adapted for reproducible batch execution."
+}

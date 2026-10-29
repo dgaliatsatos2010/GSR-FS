@@ -1,0 +1,2 @@
+method,replicates,mean_group_coverage,sd_group_coverage,mean_relevant_precision,sd_relevant_precision,mean_redundancy,sd_redundancy,mean_selected_k,exact_column_stability,group_aware_stability,mean_fit_seconds,median_fit_seconds
+FGMRW-UFS,60,0.0033333333333333335,0.025819888974716126,0.0033333333333333335,0.025819888974716126,0.0,0.0,5.0,0.03384225629988342,0.03384225629988342,1.1671122226166688,1.3303297325000187
